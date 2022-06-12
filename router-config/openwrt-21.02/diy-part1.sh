@@ -27,6 +27,6 @@ git branch --set-upstream-to=origin/master master
 
 git clone https://github.com/fw876/helloworld.git package/helloworld
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
+for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2" "sagernet-core"; do \
   svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
 done
