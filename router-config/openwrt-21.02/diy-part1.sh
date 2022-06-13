@@ -16,10 +16,10 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
-sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
+# sed -i '$a src-git small8 https://github.com/kenzok8/small-package' feeds.conf.default
 
-git clone https://github.com/fw876/helloworld.git package/helloworld
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2" ; do \
-  svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
-done
+# git clone https://github.com/fw876/helloworld.git package/helloworld
+# echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
+# for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2" ; do \
+#   svn checkout "https://github.com/immortalwrt/packages/trunk/net/$i" "package/helloworld/$i"; \
+# done
