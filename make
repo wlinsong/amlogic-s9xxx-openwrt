@@ -73,6 +73,7 @@ build_openwrt=(
     "s905x"
     "s905w"
     "s905"
+    "s905l"
 )
 # Set OpenWrt firmware size (SKIP_MB >= 4, BOOT_MB >= 256, ROOT_MB >= 512)
 SKIP_MB="68"
