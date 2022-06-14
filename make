@@ -315,6 +315,12 @@ confirm_version() {
         MAINLINE_UBOOT=""
         ANDROID_UBOOT=""
         ;;
+    s905l | r3300l)
+        FDTFILE="meson-gxl-s905x-p212.dtb"
+        UBOOT_OVERLOAD="u-boot-s905x-s912.bin"
+        MAINLINE_UBOOT="u-boot-s905x-s912.bin"
+        ANDROID_UBOOT=""
+        ;;    
     s905w | x96mini | tx3mini)
         FDTFILE="meson-gxl-s905w-tx3-mini.dtb"
         UBOOT_OVERLOAD="u-boot-s905x-s912.bin"
